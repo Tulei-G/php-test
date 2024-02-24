@@ -1,0 +1,21 @@
+{
+    "name": "tulei/test",
+    "description": "测试组件",
+    "support": {
+        "email": "tulei0908@icloud.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tulei\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tulei"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    }
+}
